@@ -1,0 +1,175 @@
+
+body{
+  background:url('../public/assets/fondo2.png') center center/cover no-repeat !important;
+}
+.div-preloader{
+  margin-top: 10rem;
+  margin-bottom: 13rem;
+  margin-left: 6rem;
+}
+.Buton-Flecha{
+  background: rgba(250, 88, 182, 1);
+  border: 0;
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+}
+.Boton-sonda-2{
+  position: absolute; color: #9548C6
+}
+.Boton-sonda-1{
+  position: absolute;color: #9548C6
+}
+
+.letra-nav{
+  font-family: Krona One;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+}
+#offcanvasNavbar-expand-false{
+  background-color: #7601c0;
+}
+#offcanvasNavbarLabel-expand-false{
+  color: white;
+}
+#boton-nav{
+  color: white;
+  background-color: white;
+}
+#titutlo-nav{
+  color: white;
+}
+.titulos {
+  font-family: Krona One;
+font-size: 40px;
+font-weight: 400;
+line-height: 50px;
+letter-spacing: 0em;
+text-align: center;
+}
+.parrafo{
+left: 45.236541748046875px;
+top: 239px;
+border-radius: nullpx;
+
+}
+.titulo{
+  border-bottom: 1px solid #000000;
+}
+.card-zondar{
+  background: #7601c0;
+}
+.div{
+width: 100px;
+min-height: 100px;
+border-radius: 5px;
+box-shadow: rgba(100,100,111,0.2) 0px 7px 29px;
+}
+.borderr{
+  outline:none;
+  border: none;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+.color{
+  background: linear-gradient(270deg, #1B1252 0%, rgba(15, 15, 42, 0) 71.09%);
+}
+.boton{
+  height: 75px;
+  width: 75px;
+  border-radius: 100%;
+  background: rgba(250, 88, 182, 1);
+}
+.boton1{
+  height: 75px;
+  width: 75px;
+  border-radius: 100%;
+  background: rgba(75, 87, 188, 1);
+}
+.imagen-mancha-satelite{
+  background: url('../public/assets/aura1.png') center center/contain no-repeat;
+
+}
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  background: #111131;
+}
+
+.button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 18px;
+  left: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: transparent;
+
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 25px;
+  position: absolute;
+  top: 100px;
+  width: 230px;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon-placeholder {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  flex: 40px 0;
+  margin-right: 20px;
+}
+
+.text-placeholder {
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+  flex: 1;
+}
+
+.refresh {
+  padding: 10px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+
