@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import React from 'react'
 import Footer from '../Footer'
-import NavBar from '../NavBar'
+import NavBarComponent from '../NavBarComponent'
 
 const Layout = ({ children }) => {
     return (
@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
                 <meta name="author" content="Lautaro Faure, Julian Murno, Santiago Faginoli, Nico Pereyra" />
                 <link rel="icon" href="./assets/logo.png"></link>
             </Head>
-            <NavBar />
+            <NavBarComponent />
             <main className="container-main">
                 {children}
             </main>
