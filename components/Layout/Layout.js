@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import React from 'react'
+import Footer from '../Footer'
 import NavBar from '../NavBar'
 
 const Layout = ({ children }) => {
@@ -16,8 +17,10 @@ const Layout = ({ children }) => {
                 <link rel="icon" href="./assets/logo.png"></link>
             </Head>
             <NavBar />
-            {children}
-
+            <main>
+                {children}
+            </main>
+            <Footer />
         </>
     )
 }
