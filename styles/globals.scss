@@ -1,75 +1,75 @@
-
-body{
-  background:url('../public/assets/fondo2.png') center center/cover no-repeat !important;
+body {
+  background: url("../public/assets/fondo2.png") center center/cover no-repeat !important;
 }
-.div-preloader{
+.div-preloader {
   margin-top: 10rem;
   margin-bottom: 13rem;
   margin-left: 6rem;
 }
-.Buton-Flecha{
+.Buton-Flecha {
   background: rgba(250, 88, 182, 1);
   border: 0;
   border-radius: 30px;
   width: 50px;
   height: 50px;
 }
-.Boton-sonda-2{
-  position: absolute; color: #9548C6
+.Boton-sonda-2 {
+  position: absolute;
+  color: #9548c6;
 }
-.Boton-sonda-1{
-  position: absolute;color: #9548C6
+.Boton-sonda-1 {
+  position: absolute;
+  color: #9548c6;
 }
 
-.letra-nav{
+.letra-nav {
   font-family: Krona One;
-font-size: 16px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
 }
-#offcanvasNavbar-expand-false{
+#offcanvasNavbar-expand-false {
   background-color: #7601c0;
 }
-#offcanvasNavbarLabel-expand-false{
+#offcanvasNavbarLabel-expand-false {
   color: white;
 }
-#boton-nav{
+#boton-nav {
   color: white;
   background-color: white;
 }
-#titutlo-nav{
+#titutlo-nav {
   color: white;
 }
 .titulos {
   font-family: Krona One;
-font-size: 40px;
-font-weight: 400;
-line-height: 50px;
-letter-spacing: 0em;
-text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
 }
-.parrafo{
-left: 45.236541748046875px;
-top: 239px;
-border-radius: nullpx;
-
+.parrafo {
+  left: 45.236541748046875px;
+  top: 239px;
+  border-radius: nullpx;
 }
-.titulo{
+.titulo {
   border-bottom: 1px solid #000000;
 }
-.card-zondar{
+.card-zondar {
   background: #7601c0;
 }
-.div{
-width: 100px;
-min-height: 100px;
-border-radius: 5px;
-box-shadow: rgba(100,100,111,0.2) 0px 7px 29px;
+.div {
+  width: 100px;
+  min-height: 100px;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px;
 }
-.borderr{
-  outline:none;
+.borderr {
+  outline: none;
   border: none;
   border-radius: 40px;
   -webkit-border-radius: 40px;
@@ -78,24 +78,23 @@ box-shadow: rgba(100,100,111,0.2) 0px 7px 29px;
   -o-border-radius: 40px;
 }
 
-.color{
-  background: linear-gradient(270deg, #1B1252 0%, rgba(15, 15, 42, 0) 71.09%);
+.color {
+  background: linear-gradient(270deg, #1b1252 0%, rgba(15, 15, 42, 0) 71.09%);
 }
-.boton{
+.boton {
   height: 75px;
   width: 75px;
   border-radius: 100%;
   background: rgba(250, 88, 182, 1);
 }
-.boton1{
+.boton1 {
   height: 75px;
   width: 75px;
   border-radius: 100%;
   background: rgba(75, 87, 188, 1);
 }
-.imagen-mancha-satelite{
-  background: url('../public/assets/aura1.png') center center/contain no-repeat;
-
+.imagen-mancha-satelite {
+  background: url("../public/assets/aura1.png") center center/contain no-repeat;
 }
 .background {
   position: absolute;
@@ -117,7 +116,6 @@ box-shadow: rgba(100,100,111,0.2) 0px 7px 29px;
   height: 50px;
   border-radius: 50%;
   background: transparent;
-
 }
 
 ul,
@@ -171,5 +169,67 @@ li {
   cursor: pointer;
 }
 
+.footer-bg {
+  width: 100vw;
+  background-color: #111131;
+  min-height: 100px;
+  padding: 0;
+  margin: 0;
+  .footer-container {
+    padding: 20px 10px;
+  }
+  .footer-links {
+    color: white;
 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.container-main {
+  min-height: 90vh;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
 
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide {
+  width: 60%;
+}
+
+.swiper-slide:nth-child(2n) {
+  width: 40%;
+}
+
+.swiper-slide:nth-child(3n) {
+  width: 20%;
+}

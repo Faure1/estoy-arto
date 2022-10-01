@@ -53,7 +53,7 @@ export const NavBar = () => {
           <Offcanvas.Body>
             <Nav className="justify-content-end flex-grow-1 pe-3">
               <Nav.Link onClick={Aviso} className='letra-nav text-white' href="#action1">SOBRE NOSOTROS</Nav.Link>
-              <Nav.Link onClick={Aviso} className='letra-nav text-white' href="#action2">GALERÍA</Nav.Link>
+              <Nav.Link className='letra-nav text-white' href="/galeria">GALERÍA</Nav.Link>
               <Nav.Link onClick={Aviso} className='letra-nav text-white' href="#action2">CONTÁCTANOS</Nav.Link>
             </Nav>
           </Offcanvas.Body>

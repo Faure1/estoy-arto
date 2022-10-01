@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
                 <link rel="icon" href="./assets/logo.png"></link>
             </Head>
             <NavBar />
-            <main>
+            <main className="container-main">
                 {children}
             </main>
             <Footer />
